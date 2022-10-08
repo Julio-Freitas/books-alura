@@ -5,15 +5,13 @@ export const ContentModal = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 65px;
-
   figcaption {
-    flex: 1;
+    width: 350px;
     max-width: 445px;
   }
 
   img {
     max-width: 100%;
-    flex: 1;
   }
 `;
 

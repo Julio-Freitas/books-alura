@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`Box > Should be show title 1`] = `
+<section
+  class="sc-fnGiBr hSOubj"
+>
+  <h2>
+    Title
+  </h2>
+  <section
+    class="sc-gswNZR PXctC"
+  />
+</section>
+`;

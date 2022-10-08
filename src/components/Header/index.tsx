@@ -17,7 +17,7 @@ export const Header = () => {
   return (
     <S_.Header>
       <S_.Img src={logo} alt="Logo" title="logo" onClick={console.log} />
-      <S_.Nav>
+      <S_.Nav >
         <Dropdown
           options={[
             { id: 1, value: "PROGRAMAÇÃO" },
@@ -28,6 +28,7 @@ export const Header = () => {
           ]}
           label="CATEGORIAS"
           onClickItem={console.log}
+          data-testid="dropdown-header"
         />
         <S_.Link to="favoritos">FAVORITOS</S_.Link>
         <S_.Link to="minha-estante">MINHA ESTANTE</S_.Link>

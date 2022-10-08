@@ -74,10 +74,10 @@ export const Home = () => {
       <S_.BoxTags >
         <h4>CATEGORIAS MAIS BUSCADAS</h4>
         {tags.lineOne.map((tag) => (
-          <DsTag text={tag} />
+          <DsTag text={tag} key={tag}/>
         ))}
         {tags.lineTwo.map((tag) => (
-          <DsTag text={tag} />
+          <DsTag text={tag} key={tag}/>
         ))}
       </S_.BoxTags>
     </div>
