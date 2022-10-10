@@ -1,7 +1,0 @@
-// Vitest Snapshot v1
-
-exports[`<Modal /> > Shoul be closed modal 1`] = `null`;
-
-exports[`<Modal /> > When the modal is Open 1`] = `null`;
-
-exports[`<Modal /> > When the modal is closed 1`] = `null`;
