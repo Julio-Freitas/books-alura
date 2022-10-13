@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`<ModalRegister /> > When the modal is closed 1`] = `null`;

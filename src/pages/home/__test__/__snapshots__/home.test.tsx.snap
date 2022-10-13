@@ -3,21 +3,21 @@
 exports[`<Home> > Shoul be Home Correctly 1`] = `
 <div>
   <div
-    class="sc-lllmON loaiWC"
+    class="sc-bYMpWt gSxjAH"
   >
     <div
-      class="sc-bYMpWt iJymaT"
+      class="sc-hhOBVt fPhFl"
     />
     <div
-      class="sc-iJnaPW cCPWzS"
+      class="sc-kMjNwy dPHyfd"
     >
       <h2
-        class="sc-gikAfH ifdjxU"
+        class="sc-ilhmMj hsoBbd"
       >
         Já sabe por onde começar?
       </h2>
       <p
-        class="sc-ezOQGI bhOvFl"
+        class="sc-jIRcFI rnesT"
       >
         Encontre em nossa estante o que precisa para seu desenvolvimento!
       </p>
@@ -29,11 +29,11 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
       </button>
     </div>
     <div
-      class="sc-bYMpWt dpdNOl"
+      class="sc-hhOBVt jGBTlL"
     />
   </div>
   <section
-    class="sc-kMjNwy kCfbbd"
+    class="sc-gYbzsP cunuTQ"
   >
     <h2>
       ÚLTIMOS LANÇAMENTOS
@@ -42,14 +42,14 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
       class="sc-gswNZR PXctC"
     >
       <div
-        class="sc-ilhmMj hMIez"
+        class="sc-cCjUiG jIrUgh"
       >
         <div />
         <div />
         <div />
       </div>
       <div
-        class="sc-jIRcFI LofGU"
+        class="sc-cjibBx eFPNMt"
       >
         <header>
           <h3>
@@ -85,7 +85,7 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
           </div>
         </header>
         <div
-          class="sc-hhOBVt hzDgPm"
+          class="sc-jcMfQk yqLZR"
         >
           <h4>
             JavaScript Assertivo
@@ -117,7 +117,7 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
     </section>
   </section>
   <section
-    class="sc-kMjNwy kCfbbd"
+    class="sc-gYbzsP cunuTQ"
   >
     <h2>
       mais Vendidos
@@ -126,14 +126,14 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
       class="sc-gswNZR PXctC"
     >
       <div
-        class="sc-ilhmMj hMIez"
+        class="sc-cCjUiG jIrUgh"
       >
         <div />
         <div />
         <div />
       </div>
       <div
-        class="sc-jIRcFI LofGU"
+        class="sc-cjibBx eFPNMt"
       >
         <header>
           <h3>
@@ -169,7 +169,7 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
           </div>
         </header>
         <div
-          class="sc-hhOBVt hzDgPm"
+          class="sc-jcMfQk yqLZR"
         >
           <h4>
             JavaScript Assertivo
@@ -201,7 +201,7 @@ exports[`<Home> > Shoul be Home Correctly 1`] = `
     </section>
   </section>
   <div
-    class="sc-gYbzsP kBMbiI"
+    class="sc-cabOPr htJXaQ"
   >
     <h4>
       CATEGORIAS MAIS BUSCADAS

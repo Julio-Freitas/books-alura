@@ -17,6 +17,11 @@ const ResetGlobalStyle = createGlobalStyle`
     height: 100%;
  }
 
+ img {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0;
+  }
 `;
 
 export default ResetGlobalStyle;

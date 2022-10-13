@@ -1,17 +1,16 @@
 import styled from "styled-components";
-import { DsField } from "books-ds";
+
 export const ContentModal = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 65px;
-  figcaption {
-    width: 350px;
-    max-width: 445px;
-  }
+  gap: 60px;
+  overflow: auto;
 
-  img {
-    max-width: 100%;
+  figcaption {
+    width: 250px;
+    max-width: 445px;
+    display: inline-flex;
   }
 `;
 
@@ -28,15 +27,17 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   flex: 0.5;
-  gap: 15px;
+  gap: 10px;
 
-  caption {
+  h4 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 48px;
     color: #eb9b00;
-    margin: 0;
+    margin-top: -10px;
     text-align: left;
+    padding: 0;
+    display: inline-block;
   }
 `;
 

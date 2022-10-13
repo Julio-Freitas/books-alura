@@ -3,10 +3,15 @@ import { IModal } from "./types";
 import imgRegister from "../../assets/login-amico-register.svg";
 
 import * as S_ from "./styles";
-import { Form } from "../form";
 import { useMemo, useState } from "react";
+import { IRegisterUser } from "../../service/register/type";
 
-export const Modal = ({ status, onClose, title, onSubmit }: IModal) => {
+export const ModalRegister = ({
+  status,
+  onClose,
+  title,
+  onSubmit,
+}: IModal<IRegisterUser>) => {
   const [name, setName] = useState("");
   const [email, setEmal] = useState("");
   const [address, setAddress] = useState("");
@@ -25,7 +30,7 @@ export const Modal = ({ status, onClose, title, onSubmit }: IModal) => {
     return password.trim() !== confirmPassword.trim();
   }, [password, confirmPassword]);
 
-  const _handleSubmit = () => {
+  const _handleSubmit = async () => {
     const data = {
       name,
       email,
@@ -39,8 +44,8 @@ export const Modal = ({ status, onClose, title, onSubmit }: IModal) => {
     if ((checkPassword && !name) || !email)
       return setErrorForm("Verique os campo nome, email e senha.");
 
-    onSubmit(data);
-    clearTheData();
+    const resetModal = await onSubmit(data);
+    if (resetModal) clearTheData();
   };
 
   const clearTheData = () => {
@@ -57,14 +62,14 @@ export const Modal = ({ status, onClose, title, onSubmit }: IModal) => {
   };
 
   return (
-    <DsModal status={status} onClose={onClose}>
+    <DsModal status={status} onClose={onClose} heightScreen={750}>
       <S_.ContentModal>
         <figcaption>
           <img src={imgRegister} alt={title} />
         </figcaption>
 
         <S_.Form data-testid="form-register">
-          <caption>{title}</caption>
+          <h4>{title}</h4>
           <DsField
             text={name}
             onChangeValue={setName}

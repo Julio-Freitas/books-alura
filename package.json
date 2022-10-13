@@ -13,7 +13,8 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "books-ds": "^0.2.6",
+    "axios": "^1.1.2",
+    "books-ds": "^0.2.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -29,6 +30,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.4.3",
+    "@types/axios": "^0.14.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",
@@ -36,6 +38,7 @@
     "@vitejs/plugin-react": "^2.1.0",
     "@vitest/coverage-c8": "^0.24.0",
     "@vitest/ui": "^0.24.0",
+    "axios-mock-adapter": "^1.21.2",
     "jsdom": "^20.0.1",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
